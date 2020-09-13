@@ -1,0 +1,99 @@
+#jumbo_bkmain {
+  background-image: url(https://i.pinimg.com/originals/75/9c/c5/759cc562228be8ee88b81317b5022fc9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  /* -webkit-filter: sepia(100%);
+    -moz-filter: sepia(100%);
+    -o-filter: sepia(100%);
+    -ms-filter: sepia(100%); */
+  /* filter: sepia(100%); */
+}
+
+.box_btn_menus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.foot_icon {
+  font-size: 25px;
+  color: #6c757d !important;
+}
+
+.foot_icon:hover {
+  font-size: 25px;
+  color: #f8f9fa !important;
+  text-shadow: 2px 2px rgb(4, 4, 4);
+}
+
+#nav_products_search {
+  border-radius: 15px;
+  background-color: #343a40;
+}
+
+.crd_boxsha {
+  -webkit-box-shadow: 6px 17px 35px 5px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 6px 17px 35px 5px rgba(0, 0, 0, 0.47);
+  box-shadow: 6px 17px 35px 5px rgba(0, 0, 0, 0.47);
+}
+
+.color_txcode {
+  color: #e83e8c;
+}
+
+/* -------BUTTON SHADOW------ */
+.out_ln_bxs_danger {
+  color: #dc3545;
+  ;
+  border-color: #dc3545;
+  border-radius: .3rem;
+}
+
+.out_ln_bxs_danger:hover {
+  background-color: #dc3545;
+  ;
+  box-shadow: 6px 17px 35px 5px rgba(220, 53, 69, 0.47);
+}
+
+.out_ln_bxs_danger:active {
+  background-color: #dc3545;
+  box-shadow: 6px 17px 35px 5px rgba(220, 53, 69, 0.47);
+}
+
+/* -----primary------- */
+.out_ln_bxs_primary {
+  color: #007bff;
+  border-color: #007bff;
+  border-radius: .3rem;
+}
+
+.out_ln_bxs_primary:hover {
+  background-color: #007bff;
+  box-shadow: 6px 17px 35px 5px rgba(0, 123, 255, 0.47);
+}
+
+.out_ln_bxs_primary:active {
+  background-color: #007bff;
+  box-shadow: 6px 17px 35px 5px rgba(0, 123, 255, 0.47);
+}
+
+/* -------FIN BUTTON SHADOW------ */
+/* ---------line subtitle------------ */
+.line_teal4ps {
+  border-bottom: 4px solid teal;
+  width: 10vw;
+}
+
+/* ---------FIN line subtitle------------ */
+
+/* ----------CARRUSEL JOB GROUP--------- */
+.carousel-inner img{
+  height: 65vh;
+}
+
+
+/* -----------CARDS IMG PRODUCTS----- */
+#box_cocardimg img{
+ height: 30vh;
+}

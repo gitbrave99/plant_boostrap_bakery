@@ -1,0 +1,11 @@
+.txt_jumbo{
+font-size: 60px;
+color:black;
+line-height: normal;
+font-weight: lighter;
+}
+.txt_sub{
+	font-size: 25px;
+	line-height: normal;
+	font-weight: normal;
+}
