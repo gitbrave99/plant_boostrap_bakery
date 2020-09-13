@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Panadería</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/tipografia.css">
+</head>
+
+<body>
+  <div class="bg-dark">
+    <div class="container">
+      <!--Navbar -->
+      <nav class="mb-1 navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/NAPSTER.png" height="40" class="d-inline-block align-top" alt="mdb logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="coorporativo.html">Corporativo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search_inp_bar" class="nav-link ">
+                <i class="fas fa-search text-light"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="dropdnProds" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdnProds">
+                <a class="dropdown-item" href="panaderia.html">Panadería</a>
+                <a class="dropdown-item" href="panaderia.html">Pastelería</a>
+                <a class="dropdown-item" href="panaderia.html">Repostería</a>
+                <a class="dropdown-item" href="panaderia.html">Cafetería</a>
+                <a class="dropdown-item" href="panaderia.html">Boquitas</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Más
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="cotizar.html">Cotizar</a>
+                <a class="dropdown-item" href="contacto.html" data-toggle="modal" data-target="#M_contatc">Contacto</a>
+                <a class="dropdown-item" href="nosotros.html">Nosotros</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="jumbotron jumbotron-fluid" id="jumbo_bkmain">
+      <div class="container text-center">
+        <h1 class="txt_jumbo animate__animated animate__flipInY" >The best bakery products</h1>
+        <p class="lead txt_sub  animate__animated animate__lightSpeedInLeft">Taste all our delicius products, cakes, bread, all your design</p>
+      </div>
+    </div>
+
+
+    <!-- form buscar -->
+    <!-- form buscar -->
+    <div class="text-center pt-3 mt-3" id="search_inp_bar">
+      <form>
+        <div class="form-group row">
+          <div class="col-sm-12 col-md-6 offset-md-3">
+            <input type="text" class="form-control" id="sr_barrs" placeholder="Chocolate cake">
+          </div>
+        </div>
+      </form>
+      <div class="d-flex justify-content-center">
+        <!-- <div class="box_btn_menus"> -->
+          <div class="tex-center bg-dark">
+            <a href="#" class="btn btn-dark">Panadería</a>
+            <a href="#" class="btn btn-dark">Pastelería</a>
+            <a href="#" class="btn btn-dark">Repostería</a>
+            <a href="#" class="btn btn-dark">Cafetería</a>
+            <a href="#" class="btn btn-dark">Boquitas</a>
+          </div>
+          <!-- </div> -->
+        </div>
+
+      </div>
+      <br>
+
+      
+      <!-- -----------------cards cakes------------ -->
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4" id="box_cocardimg">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://www.hogarmania.com/archivos/201411/tarta-frambuesas-navidad-xl-668x400x80xX.jpg" class="card-img-top" alt="...">
+            <div class="m-1">
+              <h5 class="card-title text-center">Pastel de manzana</h5>
+
+              <div id="accordionExample">
+                <div>
+                  <div id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Descripción <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche VHS.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Planes <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="">
+
+                      <table class="table  text-center">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Porción</th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>6</td>
+                            <td>$4.78</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>7</td>
+                            <td>$5.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>8</td>
+                            <td>$5.78</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-around">
+
+                <div class="form-group">
+                  <button class="btn btn-outline-primary">Agregar <i class="fas fa-shopping-cart"></i></button>
+
+                  <button class="btn btn-outline-success">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://lateclena.com/wp-content/uploads/2019/11/torta-poleada.jpg" class="card-img-top" alt="...">
+            <div class="m-1">
+              <h5 class="card-title text-center">Torta poleada</h5>
+              <div id="acr_card2">
+                <div>
+                  <div id="crhead2">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left" type="button" data-toggle="collapse" data-target="#crdcollap2" aria-expanded="false" aria-controls="crdcollap2">
+                        Descripción <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="crdcollap2" class="collapse show" aria-labelledby="crhead2" data-parent="#acr_card2">
+                    <div class="card-body">
+                      Anim pariatur cliche VHS.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div id="crdheadsub2">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#crdsub2" aria-expanded="true" aria-controls="crdsub2">
+                        Planes <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="crdsub2" class="collapse" aria-labelledby="crdheadsub2" data-parent="#acr_card2">
+                    <div class="">
+
+                      <table class="table text-center">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Porción</th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>6</td>
+                            <td>$4.78</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>7</td>
+                            <td>$5.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>8</td>
+                            <td>$5.78</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around">
+
+                <div class="form-group">
+                  <button class="btn btn-outline-primary">Agregar <i class="fas fa-shopping-cart"></i></button>
+
+                  <button class="btn btn-outline-success">Comprar</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://t1.rg.ltmcdn.com/es/images/6/3/3/img_tartaletas_de_frutas_con_queso_crema_55336_orig.jpg" class="card-img-top" alt="...">
+            <div class="m-1">
+              <h5 class="card-title text-center">Tartaleta de fruta</h5>
+
+              <div id="accd_m3">
+                <div>
+                  <div id="hed3m2">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left" type="button" data-toggle="collapse" data-target="#colap_c3" aria-expanded="false" aria-controls="colap_c3">
+                        Descripción <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="colap_c3" class="collapse show" aria-labelledby="hed3m2" data-parent="#accd_m3">
+                    <div class="card-body">
+                      Anim pariatur cliche VHS.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div id="head3m3">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collap_3su4" aria-expanded="true" aria-controls="collap_3su4">
+                        Planes <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collap_3su4" class="collapse" aria-labelledby="head3m3" data-parent="#accd_m3">
+                    <div class="">
+
+                      <table class="table  text-center">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Porción</th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>6</td>
+                            <td>$4.78</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>7</td>
+                            <td>$5.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>8</td>
+                            <td>$5.78</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around">
+
+                <div class="form-group">
+                  <button class="btn btn-outline-primary">Agregar <i class="fas fa-shopping-cart"></i></button>
+
+                  <button class="btn btn-outline-success">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://www.petitchef.es/imgupl/recipe/relampagos-eclairs-tradicionales-de-cafe-y-de-chocolate--lg-76772p106462.jpg" class="card-img-top" alt="...">
+            <div class="m-1">
+              <h5 class="card-title text-center">Relampago de caramelo</h5>
+
+              <div id="accr_ex_4">
+                <div>
+                  <div id="accrhead4">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left" type="button" data-toggle="collapse" data-target="#acr_collap41" aria-expanded="false" aria-controls="acr_collap41">
+                        Descripción <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="acr_collap41" class="collapse show" aria-labelledby="accrhead4" data-parent="#accr_ex_4">
+                    <div class="card-body">
+                      Anim pariatur cliche VHS.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn nav-item btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#accr_colla_42" aria-expanded="true" aria-controls="accr_colla_42">
+                        Planes <span class="text-primary">+</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="accr_colla_42" class="collapse" aria-labelledby="headingTwo" data-parent="#accr_ex_4">
+                    <div class="">
+
+                      <table class="table  text-center">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Porción</th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>6</td>
+                            <td>$4.78</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>7</td>
+                            <td>$5.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>8</td>
+                            <td>$5.78</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around">
+
+                <div class="form-group">
+                  <button class="btn btn-outline-primary">Agregar <i class="fas fa-shopping-cart"></i></button>
+
+                  <button class="btn btn-outline-success">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- -----------------fin card cakes---------------------- -->
+      </div>
+      <!-- -----------------fin card cakes---------------------- -->
+
+      <!-- fincontainer2 -->
+    </div>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4 bg-dark">
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase text-center text-light">Ubicación</h5>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1938.1637113611694!2d-89.2289306!3d13.6986087!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63303f2266ced1%3A0x1305fab92194bef3!2sDistribuidora%20del%20Caribe!5e0!3m2!1ses-419!2ssv!4v1598929293075!5m2!1ses-419!2ssv"
+            width="100%" height="175px" frameborder="0" style="border-radius: 4px;" allowfullscreen="" aria-hidden="false" tabindex="0">
+
+          </iframe>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase text-light">Páginas</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-muted">Coorporativo</a>
+            </li>
+            <li>
+              <a href="#!" class="text-muted">Sucursales</a>
+            </li>
+            <li>
+              <a href="#!" class="text-muted">Cotizar</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase text-light text-center">Horario</h5>
+
+          <table class="table table-dark">
+            <tbody>
+              <tr>
+                <td>Lunes</td>
+                <td>Viernes</td>
+                <td>8:00 - 8:00</td>
+              </tr>
+              <tr>
+                <td>Sabado</td>
+                <td>Domingo</td>
+                <td>7:00 - 9:00</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1" href="#">
+            <i class="fab fa-facebook-f text-muted foot_icon"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1" href="#">
+            <i class="fab fa-twitter text-white foot_icon"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1" href="#">
+            <i class="fab fa-instagram text-white foot_icon"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="#">
+            <i class="fab fa-google-plus-g text-white foot_icon"> </i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://api.whatsapp.com/send?phone=50379115206&text=Bienvenido,%20como%20Estas?">
+            <i class="fab fa-whatsapp text-white foot_icon"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-muted">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/" class="text-light">Isaac G</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="M_contatc" tabindex="-1" role="dialog" aria-labelledby="mo_subid" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mo_subid">Contacto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="nombre_r">Nombre</label>
+              <input type="text" class="form-control" id="nombre_r">
+            </div>
+            <div class="form-group">
+              <label for="asunto_r">Asunto</label>
+              <input type="text" class="form-control" id="asunto_r">
+            </div>
+            <div class="form-group">
+              <label for="email_r">Email address</label>
+              <input type="email" class="form-control" id="email_r">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Descripción</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="js/filter.js"></script>
+</body>
+
+</html>
